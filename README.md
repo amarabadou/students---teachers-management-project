@@ -47,11 +47,13 @@ Example accounts:
 - Username: admin
 - Password: test123
 
-
+### Prerequisites
+- Python 3.10+
+- MySQL or MariaDB
 
 ## Setup
 1. Clone repository
-2. update your local credentials in the file **connect.p** ( DB host , DB username , DB password , DB name )
+2. update your local credentials in the connection file **src/connect.py** ( DB host , DB username , DB password , DB name )
 3. create a database and import the schema
 4. Install dependencies
 5. Run the application (python src/main.py)
