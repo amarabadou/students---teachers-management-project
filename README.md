@@ -1,25 +1,26 @@
 # Student & Teacher Management System
 
-A Python-based management system for handling students, teachers, and schedules using a local MySQL database.
+A desktop application built with Python for managing students, teachers, lessons, and schedules using role-based authentication and a MySQL database.
 
 ## Features
-- Admin, Student, and Teacher login system
-- Students and teachers management
-- admin can add update delete students / admin can add update delete teachers
-- Teachers can add lessons in PDF format
-- Students can view the lessons and view the schedule
+- Role-based login system (Admin / Teacher / Student)
+- Admin can add, update, and delete students and teachers
+- Teachers can upload lessons in PDF format
+- Students can view lessons and schedules
 - Schedule management
-- PDF generation for reports
+- PDF report generation
 
 ## Technologies
 - Python
+- Tkinter
 - MySQL
-- phpMyAdmin
+- mysql-connector-python
 
 ## Authentication Design
-- This project focuses on role-based authentication (Admin / Teacher / Student).
-- User account creation (Sign-up) is intentionally excluded from the UI.
-- Users are pre-created in the database by the administrator.
+This project focuses on role-based authentication (Admin / Teacher / Student).
+
+User account creation (Sign-up) is intentionally excluded from the UI.
+Users are pre-created in the database by the administrator.
 
 This design choice was made to:
 - Simplify the system for educational purposes
@@ -27,29 +28,36 @@ This design choice was made to:
 - Simulate a controlled academic environment
 
 ## Test Credentials
- To test the application:
-1. Insert a user manually into the database (student / teacher / admin)
-2. Use the inserted email and password to log in
 
-Example:
-1. Email: student@test.com
-2. Password: test123
------------------
-1. username: teacher
-2. password: test123
------------------
-1.username: admin
-2.password: test123
+To test the application:
+1. Insert a user manually into the database (Student / Teacher / Admin)
+2. Use the inserted credentials to log in
+
+Example accounts:
+
+**Student**
+- Email: student@test.com
+- Password: test123
+
+**Teacher**
+- Username: teacher
+- Password: test123
+
+**Admin**
+- Username: admin
+- Password: test123
+
 
 
 ## Setup
 1. Clone repository
 2. update your local credentials in the file **connect.p** ( DB host , DB username , DB password , DB name )
-3. Import database schema
+3. create a database and import the schema
 4. Install dependencies
 5. Run the application (python src/main.py)
 
 
 ## Author
+Ammar Abadou  
+Computer Engineering Student  
 
-Ammar Abadou
