@@ -63,17 +63,17 @@ Example accounts:
 ### Authentication & Main Entry
 | Main Login Screen | Admin Login | Student Login |
 | :---: | :---: | :---: |
-| <img src="screenshots/login.png"> | <img src="screenshots/Admin Login.png" width="250"> | <img src="screenshots/student_login.png" width="250"> |
+| <img src="Screenshots/login.png" width="250"> | <img src="Screenshots/Admin Login.png" width="250"> | <img src="Screenshots/student_login.png" width="250"> |
 
 ### Dashboards
 | Admin Dashboard | Teacher Dashboard | Student Dashboard |
 | :---: | :---: | :---: |
-| <img src="screenshots/Admin_dashboard.png" width="250"> | <img src="screenshots/teacher_dashboard.png" width="250"> | <img src="screenshots/student_dashboard.png" width="250"> |
+| <img src="Screenshots/Admin_dashboard.png" width="250"> | <img src="Screenshots/teacher_dashboard.png" width="250"> | <img src="Screenshots/student_dashboard.png" width="250"> |
 
 ### Lesson Management
 | Lesson Uploader | View Lessons | Weekly Schedule |
 | :---: | :---: | :---: |
-| <img src="screenshots/lessons_uploader.png" width="250"> | <img src="screenshots/view_lessons.png" width="250"> | <img src="screenshots/shcedule.png" width="250"> |
+| <img src="Screenshots/lessons_uploader.png" width="250"> | <img src="Screenshots/view_lessons.png" width="250"> | <img src="Screenshots/shcedule.png" width="250"> |
 
 
 ## Author
