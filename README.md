@@ -63,7 +63,7 @@ Example accounts:
 ### Authentication & Main Entry
 | Main Login Screen | Admin Login | Student Login |
 | :---: | :---: | :---: |
-| <img src="screenshots/login.png" width="250"> | <img src="screenshots/Admin Login.png" width="250"> | <img src="screenshots/student_login.png" width="250"> |
+| <img src="screenshots/login.png"> | <img src="screenshots/Admin Login.png" width="250"> | <img src="screenshots/student_login.png" width="250"> |
 
 ### Dashboards
 | Admin Dashboard | Teacher Dashboard | Student Dashboard |
