@@ -52,11 +52,13 @@ Example accounts:
 - MySQL or MariaDB
 
 ## Setup
-1. Clone repository
-2. update your local credentials in the connection file **src/connect.py** ( DB host , DB username , DB password , DB name )
-3. create a database and import the schema
-4. Install dependencies
-5. Run the application (python src/main.py)
+1. Clone repository:
+  - git clone https://github.com/amarabadou/students---teachers-management-project.git
+  - cd students---teachers-management-project
+3. update your local credentials in the connection file **src/connect.py** ( DB host , DB username , DB password , DB name )
+4. create a database and import the schema
+5. Install dependencies
+6. Run the application (python src/main.py)
 
 ## Project Previews (Screenshots)
 
